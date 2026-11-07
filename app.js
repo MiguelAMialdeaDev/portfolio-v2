@@ -1,5 +1,5 @@
 (function () {
-  var openers = document.querySelectorAll('.crate-open');
+  var openers = document.querySelectorAll('.proj-open');
 
   function close(btn, restoreFocus) {
     var panel = document.getElementById(btn.getAttribute('aria-controls'));
